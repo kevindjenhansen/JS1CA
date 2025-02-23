@@ -1,0 +1,49 @@
+@import url("./reset.css");
+@import url("./variables.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+main {
+  color: var(--color-primary);
+  background-color: white;
+}
+
+.main-section { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
+main h1 {
+  color: black;
+  font-size: 4rem; 
+  margin: 0;
+  max-width: 100%;
+}
+
+main p {
+  font-size: 1.7rem; 
+  line-height: 1.5;
+  margin: 20px;
+  max-width: 30%; 
+  color: black;
+}
+
+.action-button {
+  background-color: black; 
+  padding: 10px 20px; 
+  color: #fff; 
+  font-size: 1.5rem; 
+  text-decoration: none; 
+  border: 2px solid gray; 
+  border-radius: 0px; 
+}
+
+.action-button:hover {
+  background-color: #007BFF; 
+}

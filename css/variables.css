@@ -1,0 +1,8 @@
+:root {
+    --color-primary: white;
+    --color-secondary: black;
+  }
+
+  body {
+    font-family: 'Raleway', Verdana, Tahoma, sans-serif;
+  }
