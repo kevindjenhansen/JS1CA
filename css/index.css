@@ -16,7 +16,7 @@ main {
 /* Home Banner */
 
 .home-banner {
-    background-image: url('/assets/mainbackground.jpg'); 
+    background-image: url('./assets/mainbackground.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
